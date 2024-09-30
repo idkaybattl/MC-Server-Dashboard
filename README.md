@@ -1,0 +1,1 @@
+Made to work on Ubuntu Server with Apache, but should work on other Linux distors too.
