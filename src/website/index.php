@@ -4,8 +4,8 @@
         <link rel="stylesheet" href="css/style_index.css">
     </head>
     <body>
-        <p>
-            Hello
-        </p>
+        <div>
+            
+        </div>
     </body>
 </html>
