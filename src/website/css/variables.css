@@ -1,5 +1,11 @@
 :root {
-    --dark-std-bg : #181818;
-    --dark-lighter-bg : #242426;
-    --dark-std-font : #d9dfde;
+    --dark-main-bg: #181818;
+    --dark-secondary-bg: #1f1f22;
+    --dark-main-font: #d9dfde;
+    --dark-main-container: #242325;
+
+    --light-main-bg: #f0f0f0;
+    --light-secondary-bg: #edeceb;
+    --light-main-font: #242120;
+    --light-main-container: #bcbab9;
 }
