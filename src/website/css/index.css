@@ -67,7 +67,6 @@ h4 {
 
 .online-div {
     width: 100%;
-    height: 50%;
     display: flex;
     justify-content: space-around;
 }
@@ -80,9 +79,9 @@ h4 {
 }
 
 .online-item {
-    height: calc(100% - 50px);
+    height: 45vh;
     width: calc(100% - 40px);
-    margin: 0 20px;
+    margin: 0 20px 40px 20px;
     border-radius: 25px;
     background-color: var(--primary-container);
     overflow: hidden;
@@ -205,6 +204,9 @@ h4 {
     h2 {
         font-size: 1.8rem;
     }
+    .online-item {
+        height: 40vh;
+    }
 }
 
 @media only screen and (max-width: 820px) {
@@ -219,7 +221,11 @@ h4 {
     }
     .offline-item {
         height: 85px;
-        margin: 0 15px 20px 15px;
+        margin: 10px 15px 10px 15px;
+    }
+    .online-item {
+        height: auto;
+        margin: 0 20px 30px 20px;
     }
     h2 {
         font-size: 1.6rem;
@@ -233,13 +239,13 @@ h4 {
         font-size: .8rem;
         margin: 10px 20px;
     }
+    .online-content {
+        padding-bottom: 35px;
+        height: calc(100% - 48px);
+    }
     @media only screen and (orientation: portrait) {
         .online-div {
             flex-direction: column;
-            height: 60%;
-        }
-        .online-item {
-            margin: 0 20px 30px 20px;
         }
         .offline-item {
             width: calc(100% - 30px);
@@ -264,5 +270,11 @@ h4 {
     }
     .offline-div {
         padding: 0;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    h2 {
+        margin-bottom: 10px;
     }
 }
