@@ -2,10 +2,38 @@
     --dark-main-bg: #181818;
     --dark-secondary-bg: #1f1f22;
     --dark-main-font: #d9dfde;
-    --dark-main-container: #242325;
+    --dark-main-container: #262527;
+    --black: black;
+    --dark-green: #238d4c;
+    --dark-red: #96161a;
 
-    --light-main-bg: #f0f0f0;
-    --light-secondary-bg: #edeceb;
+    --light-main-bg: #d6d3d1;
+    --light-secondary-bg: #e0dcda;
     --light-main-font: #242120;
-    --light-main-container: #bcbab9;
+    --light-main-container: #cac6c4;
+    --white: white;
+    --light-green: #09881a;
+    --light-red: #d53d42;
+}
+
+:root {
+    --main-bg: var(--dark-main-bg);
+    --secondary-bg: var(--dark-secondary-bg);
+    --main-font: var(--dark-main-font);
+    --main-container: var(--dark-main-container);
+    --secondary-container: var(--dark-secondary-container);
+    --extreme: var(--black);
+    --green: var(--dark-green);
+    --red: var(--dark-red);
+}
+
+[data-theme="light"] {
+    --main-bg: var(--light-main-bg);
+    --secondary-bg: var(--light-secondary-bg);
+    --main-font: var(--light-main-font);
+    --main-container: var(--light-main-container);
+    --secondary-container: var(--light-secondary-container);
+    --extreme: var(--white);
+    --green: var(--light-green);
+    --red: var(--light-red);
 }
