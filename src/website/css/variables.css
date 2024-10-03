@@ -1,18 +1,18 @@
 :root {
     --dark-main-bg: #181818;
     --dark-secondary-bg: #1f1f22;
-    --dark-main-font: #d9dfde;
-    --dark-main-container: #262527;
+    --dark-main-font: #bdc3c2;
+    --dark-main-container: #2f2d30be;
     --black: black;
     --dark-green: #238d4c;
     --dark-red: #96161a;
 
-    --light-main-bg: #d6d3d1;
-    --light-secondary-bg: #e0dcda;
+    --light-main-bg: #a09d9c;
+    --light-secondary-bg: #b4b1ad;
     --light-main-font: #242120;
-    --light-main-container: #cac6c4;
+    --light-main-container: #8f8c8b78;
     --white: white;
-    --light-green: #09881a;
+    --light-green: #129f46;
     --light-red: #d53d42;
 }
 

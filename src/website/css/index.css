@@ -25,32 +25,41 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 main {
-    width: 100%;
+    width: calc(100% - 40px);
     height: calc(100% - 100px);
+    padding: 0 20px;
 }
+
 h1 {
     margin-left: 40px;
     font-size: 2.2rem;
 }
+
 .online-server-div {
     width: 100%;
-    height: calc(100%/2);
+    height: 50%;
     display: flex;
     justify-content: space-around;
 }
+
 .offline-server-div {
     width: 100%;
-    height: calc(100%/2);
+    height: 50%;
     display: flex;
 }
+
 .online-server-item {
     height: calc(100% - 50px);
-    width: calc(calc(100% / 2) - 80px);
+    width: calc(100% - 40px);
+    margin: 0 20px;
     border-radius: 25px;
     background-color: var(--main-container);
     display: flex;
+    overflow: hidden;
 }
+
 .green-line {
     align-self: last baseline;
     height: 10px;
@@ -59,7 +68,7 @@ h1 {
 }
 
 
-
+/* toggle */
 .theme-switch {
     font-size: 22px;
     position: relative;
@@ -70,14 +79,12 @@ h1 {
     box-shadow: 0 0 40px 0 var(--extreme);
 }
 
-/* Hide default HTML checkbox */
 .theme-switch input {
     opacity: 1;
     width: 0;
     height: 0;
 }
-  
-/* The slider */
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -128,4 +135,40 @@ h1 {
 .theme-switch input:checked ~ .on {
     transform: translateX(-2em);
     opacity: 1;
+}
+
+
+@media only screen and (max-width: 820px) {
+    header {
+        height: 80px;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+    .theme-switch {
+        font-size: 17px;
+    }
+    @media only screen and (orientation: portrait) {
+        .online-server-div {
+            flex-direction: column;
+            height: 60%;
+        }
+        .online-server-item {
+            margin: 0 20px 30px 20px;
+        }
+    }
+}
+@media only screen and (max-width: 530px) {
+    h1 {
+        font-size: 1.3rem;
+        margin-left: 25px;
+    }
+    .theme-switch {
+        font-size: 11px;
+        margin-right: 25px;
+    }
+    .online-server-item {
+        width: calc(100% - 20px);
+        margin: 0 10px 25px 10px;
+    }
 }
