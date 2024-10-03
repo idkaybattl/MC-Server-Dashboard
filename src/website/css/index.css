@@ -9,12 +9,16 @@ html {
 }
 
 body {
+    text-wrap: nowrap;
     width: 100%;
     height: 100%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-style: normal;
-    color: var(--primary-font);
     background-image: linear-gradient(var(--secondary-bg),var(--primary-bg)70%);
+}
+
+a:link{
+    text-decoration: none!important;
 }
 
 header {
@@ -33,15 +37,17 @@ main {
 }
 
 h1 {
+    color: var(--primary-font);
     font-weight: 300;
     margin-left: 40px;
     font-size: 1.5rem;
 }
 
 h2 {
+    color: var(--primary-font);
     font-weight: 600;
     font-size: 2.2rem;
-    margin: 15px 30px;
+    margin: 20px 35px;
 }
 
 h3 {
@@ -49,7 +55,6 @@ h3 {
     font-weight: 400;
     font-size: 1.5rem;
     color: var(--secondary-font);
-    text-wrap: nowrap;
 }
 
 h4 {
@@ -81,6 +86,12 @@ h4 {
     border-radius: 25px;
     background-color: var(--primary-container);
     overflow: hidden;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.online-item:hover {
+    transform: scale(0.99);
 }
 
 .offline-item {
@@ -92,6 +103,13 @@ h4 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.offline-item:hover {
+    transform: scale(0.99);
 }
 
 .online-content {
@@ -115,10 +133,10 @@ h4 {
     font-size: 16px;
     position: relative;
     display: inline-block;
+    cursor: pointer;
     width: 4em;
     height: 2em;
     margin-right: 40px;
-    box-shadow: 0 0 80px 0 var(--extreme);
 }
 
 .theme-switch input {
@@ -129,13 +147,16 @@ h4 {
 
 .slider {
     position: absolute;
-    cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: var(--primary-container);
     transition: .4s;
+    border-radius: 5px;
+    box-shadow: 0 0 80px 0 var(--extreme);
+    box-shadow: ;
+    overflow: hidden;
 }
   
 .off {
@@ -143,11 +164,11 @@ h4 {
     content: "";
     height: 2em;
     width: 2em;
-    background-color: white;
     transition: .4s;
     image-rendering: pixelated;
     opacity: 1;
     right: 0;
+    border-radius: 0 5px 5px 0;
 }
   
 .on {
@@ -155,11 +176,11 @@ h4 {
     content: "";
     height: 2em;
     width: 2em;
-    background-color: white;
     transition: .4s;
     image-rendering: pixelated;
     opacity: 0;
     right: 0;
+    border-radius: 5px 0 0 5px;
 }
   
 .theme-switch input:checked + .slider {
@@ -172,6 +193,7 @@ h4 {
   
 .theme-switch input:checked ~ .off {
     transform: translateX(-2em);
+    opacity: 0;
 }
   
 .theme-switch input:checked ~ .on {
@@ -206,11 +228,11 @@ h4 {
     }
     h3 {
         font-size: 1.1rem;
-        margin: 5px 15px;
+        margin: 5px 20px;
     }
     h4 {
         font-size: .8rem;
-        margin: 10px 15px;
+        margin: 10px 20px;
     }
     @media only screen and (orientation: portrait) {
         .online-div {
