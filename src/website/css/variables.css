@@ -1,18 +1,20 @@
 :root {
     --dark-main-bg: #181818;
     --dark-secondary-bg: #1f1f22;
-    --dark-main-font: #bdc3c2;
-    --dark-main-container: #2f2d30be;
+    --dark-main-font: #aab6b4;
+    --dark-main-container: #2f2d30b7;
+    --dark-secondary-container: #2f2d307b;
     --black: black;
-    --dark-green: #238d4c;
+    --dark-blue: #23688d;
     --dark-red: #96161a;
 
     --light-main-bg: #a09d9c;
-    --light-secondary-bg: #b4b1ad;
-    --light-main-font: #242120;
-    --light-main-container: #8f8c8b78;
+    --light-secondary-bg: #aca9a5;
+    --light-main-font: #381e07;
+    --light-main-container: #636a6a58;
+    --light-secondary-container: #71787836;
     --white: white;
-    --light-green: #129f46;
+    --light-blue: #2669a0;
     --light-red: #d53d42;
 }
 
@@ -23,7 +25,7 @@
     --main-container: var(--dark-main-container);
     --secondary-container: var(--dark-secondary-container);
     --extreme: var(--black);
-    --green: var(--dark-green);
+    --blue: var(--dark-blue);
     --red: var(--dark-red);
 }
 
@@ -34,6 +36,6 @@
     --main-container: var(--light-main-container);
     --secondary-container: var(--light-secondary-container);
     --extreme: var(--white);
-    --green: var(--light-green);
+    --blue: var(--light-blue);
     --red: var(--light-red);
 }
