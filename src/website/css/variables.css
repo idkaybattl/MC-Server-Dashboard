@@ -1,17 +1,21 @@
 :root {
-    --dark-main-bg: #181818;
+    --dark-primary-bg: #181818;
     --dark-secondary-bg: #1f1f22;
-    --dark-main-font: #aab6b4;
-    --dark-main-container: #2f2d30b7;
+    --dark-primary-font: #adb8b6;
+    --dark-secondary-font: #797c7c;
+    --dark-tertiary-font: #6c7070;
+    --dark-primary-container: #2f2d30b7;
     --dark-secondary-container: #2f2d307b;
     --black: black;
     --dark-blue: #23688d;
     --dark-red: #96161a;
 
-    --light-main-bg: #a09d9c;
+    --light-primary-bg: #a09d9c;
     --light-secondary-bg: #aca9a5;
-    --light-main-font: #381e07;
-    --light-main-container: #636a6a58;
+    --light-primary-font: #381e07;
+    --light-secondary-font: #4a4742;
+    --light-tertiary-font: #4f4d49;
+    --light-primary-container: #636a6a58;
     --light-secondary-container: #71787836;
     --white: white;
     --light-blue: #2669a0;
@@ -19,10 +23,12 @@
 }
 
 :root {
-    --main-bg: var(--dark-main-bg);
+    --primary-bg: var(--dark-primary-bg);
     --secondary-bg: var(--dark-secondary-bg);
-    --main-font: var(--dark-main-font);
-    --main-container: var(--dark-main-container);
+    --primary-font: var(--dark-primary-font);
+    --secondary-font: var(--dark-secondary-font);
+    --tertiary-font: var(--dark-tertiary-font);
+    --primary-container: var(--dark-primary-container);
     --secondary-container: var(--dark-secondary-container);
     --extreme: var(--black);
     --blue: var(--dark-blue);
@@ -30,10 +36,12 @@
 }
 
 [data-theme="light"] {
-    --main-bg: var(--light-main-bg);
+    --primary-bg: var(--light-primary-bg);
     --secondary-bg: var(--light-secondary-bg);
-    --main-font: var(--light-main-font);
-    --main-container: var(--light-main-container);
+    --primary-font: var(--light-primary-font);
+    --secondary-font: var(--light-secondary-font);
+    --tertiary-font: var(--light-tertiary-font);
+    --primary-container: var(--light-primary-container);
     --secondary-container: var(--light-secondary-container);
     --extreme: var(--white);
     --blue: var(--light-blue);
