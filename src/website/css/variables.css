@@ -47,3 +47,32 @@
     --blue: var(--light-blue);
     --red: var(--light-red);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    text-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    background-image: linear-gradient(var(--secondary-bg),var(--primary-bg)70%);
+    overflow: hidden;
+}
+
+a:link{
+    text-decoration: none!important;
+}
+
+a {
+    cursor: pointer;
+}
