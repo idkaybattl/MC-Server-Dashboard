@@ -40,7 +40,7 @@
                 </div>
             </span>
             <span>
-                <div>
+                <div class="theme-switch-div">
                     <label class="theme-switch" for="checkbox">
                         <input type="checkbox" id="checkbox">
                         <span class="slider"></span>

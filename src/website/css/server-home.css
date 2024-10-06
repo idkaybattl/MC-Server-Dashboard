@@ -38,14 +38,17 @@ nav a {
     font-size: 2.8rem!important;
 }
 
+.theme-switch-div {
+    height: calc(var(--nav-width) * 1.5);
+}
 
 .theme-switch {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     position: relative;
     display: inline-block;
     cursor: pointer;
-    width: 4em;
-    height: 2em;
+    width: 2em;
+    height: 4em;
 }
 
 .theme-switch input {
@@ -76,8 +79,8 @@ nav a {
     transition: .4s;
     image-rendering: pixelated;
     opacity: 1;
-    right: 0;
-    border-radius: 0 5px 5px 0;
+    bottom: 0;
+    border-radius: 0 0  5px 5px;
 }
   
 .on {
@@ -88,8 +91,8 @@ nav a {
     transition: .4s;
     image-rendering: pixelated;
     opacity: 0;
-    right: 0;
-    border-radius: 5px 0 0 5px;
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
 }
   
 .theme-switch input:checked + .slider {
@@ -101,11 +104,11 @@ nav a {
 }
   
 .theme-switch input:checked ~ .off {
-    transform: translateX(-2em);
+    transform: translateY(-2em);
     opacity: 0;
 }
   
 .theme-switch input:checked ~ .on {
-    transform: translateX(-2em);
+    transform: translateY(-2em);
     opacity: 1;
 }
