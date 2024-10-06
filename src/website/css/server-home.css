@@ -66,6 +66,7 @@ nav a {
     border-radius: 5px;
     box-shadow: 0 0 80px 0 var(--extreme);
     overflow: hidden;
+    margin: 0;
 }
   
 .off {

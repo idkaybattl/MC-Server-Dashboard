@@ -44,17 +44,20 @@
                     <a class="material-symbols-rounded">arrow_forward_ios</a>
                 </div>
                 <div>
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <span class="slider"></span>
+                        <img src="img/lamp-off.jpg" class="off">
+                        <img src="img/lamp-on.jpg" class="on">
+                    </label>
+                </div>
+                <div>
                     <a class="material-symbols-rounded" href="index.php">logout</a>
                 </div>
             </span>
         </nav>
         <main>
-            <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox">
-                <span class="slider"></span>
-                <img src="img/lamp-off.jpg" class="off">
-                <img src="img/lamp-on.jpg" class="on">
-            </label>
+            
         </main>
         <script src="js/theme.js"></script>
     </body>

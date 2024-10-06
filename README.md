@@ -1,4 +1,4 @@
-Made to work on Ubuntu Server with Apache, but should work on other Linux distors too.
+Made to work on Ubuntu Server with Apache, but should work on other Linux distros too.
 Everything for this is supposed to be in /srv but you could technically put it everywhere you want.
 
 Install Apache2, MySQL and PHP (https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu#changing-apache-s-directory-index-optional)
