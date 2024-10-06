@@ -44,7 +44,7 @@
                     <a class="material-symbols-rounded">arrow_forward_ios</a>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded" href="index.php.html">logout</a>
+                    <a class="material-symbols-rounded" href="index.php">logout</a>
                 </div>
             </span>
         </nav>

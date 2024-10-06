@@ -25,7 +25,7 @@
         </header>
         <main>
             <div class="online-div">
-                <a class="online-item" href="server-home.php.html?server=1">
+                <a class="online-item" href="server-home.php?server=1">
                     <div class="online-content">
                         <h2>Some Online Server 1</h2>
                         <h3>ip: main.intimimtem-mc.de</h3>
@@ -34,7 +34,7 @@
                     </div>
                     <div class="green-line"></div>
                 </a>
-                <a class="online-item" href="server-home.php.html?server=2">
+                <a class="online-item" href="server-home.php?server=2">
                     <div class="online-content">
                         <h2>Some Online Server 2</h2>
                         <h3>ip: second.intimimtem-mc.de</h3>
@@ -45,31 +45,31 @@
                 </a>
             </div>
             <div class="offline-div">
-                <a class="offline-item" href="server-home.php.html?server=1">
+                <a class="offline-item" href="server-home.php?server=1">
                     <h3>Some Server Name 1</h3>
                     <h4>Version 1.21.2 Paper, no Plugins</h4>
                 </a>
-                <a class="offline-item" href="server-home.php.html?server=1">
+                <a class="offline-item" href="server-home.php?server=1">
                     <h3>Some Server Name 2</h3>
                     <h4>Version 1.21.2 Paper, no Plugins</h4>
                 </a>
-                <a class="offline-item" href="server-home.php.html?server=1">
+                <a class="offline-item" href="server-home.php?server=1">
                     <h3>Some Server Name 3</h3>
                     <h4>Version 1.21.2 Paper, no Plugins</h4>
                 </a>
-                <a class="offline-item" href="server-home.php.html?server=1">
+                <a class="offline-item" href="server-home.php?server=1">
                     <h3>Some Server Name 4</h3>
                     <h4>Version 1.21.2 Paper, no Plugins</h4>
                 </a>
-                <a class="offline-item" href="server-home.php.html?server=1">
+                <a class="offline-item" href="server-home.php?server=1">
                     <h3>Some Server Name 5</h3>
                     <h4>Version 1.21.2 Paper, no Plugins</h4>
                 </a>
-                <a class="offline-item" href="server-home.php.html?server=1">
+                <a class="offline-item" href="server-home.php?server=1">
                     <h3>Some Server Name 6</h3>
                     <h4>Version 1.21.2 Paper, no Plugins</h4>
                 </a>
-                <a class="offline-item" href="server-home.php.html?server=1">
+                <a class="offline-item" href="server-home.php?server=1">
                     <h3>Some Server Name 7</h3>
                     <h4>Version 1.21.2 Paper, no Plugins</h4>
                 </a>
