@@ -49,7 +49,7 @@
                     </label>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded">arrow_forward_ios</a>
+                    <a class="material-symbols-rounded" onclick="expand_nav()">arrow_forward_ios</a>
                 </div>
                 <div>
                     <a class="material-symbols-rounded logout" href="index.php">logout</a>
