@@ -112,3 +112,10 @@ nav a {
     transform: translateY(-2em);
     opacity: 1;
 }
+
+.logout {
+    color: var(--red);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-right: 0.5rem;
+}
