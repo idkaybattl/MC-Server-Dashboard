@@ -41,9 +41,6 @@
             </span>
             <span>
                 <div>
-                    <a class="material-symbols-rounded">arrow_forward_ios</a>
-                </div>
-                <div>
                     <label class="theme-switch" for="checkbox">
                         <input type="checkbox" id="checkbox">
                         <span class="slider"></span>
@@ -52,7 +49,10 @@
                     </label>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded" href="index.php">logout</a>
+                    <a class="material-symbols-rounded">arrow_forward_ios</a>
+                </div>
+                <div>
+                    <a class="material-symbols-rounded" href="index.php" style="color: var(--red);">logout</a>
                 </div>
             </span>
         </nav>
