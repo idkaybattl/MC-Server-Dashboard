@@ -48,7 +48,8 @@
                         <img src="img/lamp-on.jpg" class="on">
                     </label>
                 </div>
-                <div>
+                <div for="check">
+                    <input type="checkbox" id="check">
                     <a class="material-symbols-rounded" onclick="expand_nav()">arrow_forward_ios</a>
                 </div>
                 <div>

@@ -29,7 +29,7 @@ nav div{
     width: 100%;
     height: calc(var(--nav-width) * 0.95);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -118,4 +118,14 @@ nav a {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     margin-right: 0.5rem;
+}
+
+div input {
+    width: 0;
+    height: 0;
+    opacity: 1;
+}
+
+div input:checked + nav {
+    width: 500px;
 }
