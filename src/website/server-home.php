@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="css/server-home.css">
         <link rel="stylesheet" href="css/variables.css">
 
+        <script src="js/server-home.js"></script>
+
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +17,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,500,0,-25"/>
     </head>
     <body>
-        <nav>
+        <nav id="nav">
             <span>
                 <div>
                     <a class="material-symbols-rounded">home</a>
@@ -48,8 +50,7 @@
                         <img src="img/lamp-on.jpg" class="on">
                     </label>
                 </div>
-                <div for="check">
-                    <input type="checkbox" id="check">
+                <div>
                     <a class="material-symbols-rounded" onclick="expand_nav()">arrow_forward_ios</a>
                 </div>
                 <div>

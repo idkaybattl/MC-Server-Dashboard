@@ -16,6 +16,10 @@ nav {
     justify-content: space-between;
 }
 
+.expandednav {
+    width: calc(var(--nav-width) * 2);
+}
+
 main {
     width: calc(100% - var(--nav-width));
     height: 100%;
