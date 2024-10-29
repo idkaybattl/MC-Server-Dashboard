@@ -17,7 +17,7 @@ nav {
 }
 
 .expanded_nav {
-    width: calc(var(--nav-width) * 3);
+    width: calc(var(--nav-width) * 4);
 }
 
 main {
