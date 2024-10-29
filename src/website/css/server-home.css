@@ -16,8 +16,8 @@ nav {
     justify-content: space-between;
 }
 
-.expandednav {
-    width: calc(var(--nav-width) * 2);
+.expanded_nav {
+    width: calc(var(--nav-width) * 3);
 }
 
 main {
@@ -37,16 +37,13 @@ nav div{
     align-items: center;
 }
 
-nav div input {
-    position: absolute;
-    opacity: 1;
-    width: 0;
-    height: 0;
-}
-
 nav a {
     color: var(--primary-font);
     font-size: 2.8rem!important;
+}
+
+.expanded_arrow {
+    rotate: 180deg;
 }
 
 .theme-switch-div {
