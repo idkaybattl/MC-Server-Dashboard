@@ -33,6 +33,13 @@ nav div{
     align-items: center;
 }
 
+nav div input {
+    position: absolute;
+    opacity: 1;
+    width: 0;
+    height: 0;
+}
+
 nav a {
     color: var(--primary-font);
     font-size: 2.8rem!important;
