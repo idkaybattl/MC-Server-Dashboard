@@ -21,24 +21,31 @@
             <span>
                 <div>
                     <a class="material-symbols-rounded">home</a>
+                    <p class="icon_name">Home</p>
                 </div>
                 <div>
                     <a class="material-symbols-rounded">keyboard</a>
+                    <p class="icon_name">Console</p>
                 </div>
                 <div>
                     <a class="material-symbols-rounded">history</a>
+                    <p class="icon_name">Logs</p>
                 </div>
                 <div>
                     <a class="material-symbols-rounded">settings</a>
+                    <p class="icon_name">Properties</p>
                 </div>
                 <div>
                     <a class="material-symbols-rounded">stacks</a>
+                    <p class="icon_name">Version</p>
                 </div>
                 <div>
                     <a class="material-symbols-rounded">landscape</a>
+                    <p class="icon_name">World</p>
                 </div>
                 <div>
                     <a class="material-symbols-rounded">monitoring</a>
+                    <p class="icon_name">Status</p>
                 </div>
             </span>
             <span>

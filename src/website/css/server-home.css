@@ -20,6 +20,14 @@ nav {
     width: calc(var(--nav-width) * 4);
 }
 
+.icon_name {
+    display: none;
+}
+
+.expanded_icon_name {
+    display: block;
+}
+
 main {
     width: calc(100% - var(--nav-width));
     height: 100%;
