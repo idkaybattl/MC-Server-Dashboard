@@ -66,7 +66,8 @@
             </span>
         </nav>
         <main>
-            
+            <header></header>
+                
         </main>
         <script src="js/theme.js"></script>
     </body>
