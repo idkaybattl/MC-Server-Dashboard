@@ -20,32 +20,40 @@
         <nav id="nav">
             <span>
                 <div>
-                    <a class="material-symbols-rounded">home</a>
-                    <p class="icon_name">Home</p>
+                    <a class="material-symbols-rounded icon">home</a>
+                    <a class="icon_name">Overview</a>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded">keyboard</a>
-                    <p class="icon_name">Console</p>
+                    <a class="material-symbols-rounded icon">keyboard</a>
+                    <a class="icon_name">Console</a>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded">history</a>
-                    <p class="icon_name">Logs</p>
+                    <a class="material-symbols-rounded icon">manage_accounts</a>
+                    <a class="icon_name">Players</a>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded">settings</a>
-                    <p class="icon_name">Properties</p>
+                    <a class="material-symbols-rounded icon">backup</a>
+                    <a class="icon_name">Backups</a>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded">stacks</a>
-                    <p class="icon_name">Version</p>
+                    <a class="material-symbols-rounded icon">history</a>
+                    <a class="icon_name">Logs</a>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded">landscape</a>
-                    <p class="icon_name">World</p>
+                    <a class="material-symbols-rounded icon">settings</a>
+                    <a class="icon_name">Properties</a>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded">monitoring</a>
-                    <p class="icon_name">Status</p>
+                    <a class="material-symbols-rounded icon">stacks</a>
+                    <a class="icon_name">Version</a>
+                </div>
+                <div>
+                    <a class="material-symbols-rounded icon">landscape</a>
+                    <a class="icon_name">World</a>
+                </div>
+                <div>
+                    <a class="material-symbols-rounded icon">monitoring</a>
+                    <a class="icon_name">Status</a>
                 </div>
             </span>
             <span>
@@ -58,21 +66,22 @@
                             <img src="img/lamp-on.jpg" class="on">
                         </label>
                     </div>
-                    <p class="icon_name">Theme</p>
+                    <a class="icon_name">Theme</a>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded" onclick="expand_nav()" id="expand_arrow">arrow_forward_ios</a>
-                    <p class="icon_name">Contract</p>
+                    <a class="material-symbols-rounded icon" onclick="expand_nav()" id="expand_arrow">arrow_forward_ios</a>
+                    <a class="icon_name" onclick="expand_nav()">Contract</a>
                 </div>
                 <div>
-                    <a class="material-symbols-rounded logout" href="index.php">logout</a>
-                    <p class="icon_name">Back</p>
+                    <a class="material-symbols-rounded logout icon" href="index.php">logout</a>
+                    <a class="icon_name" href="index.php">Back</a>
                 </div>
             </span>
         </nav>
         <main>
             <header></header>
-                
+            <section></section>
+            <section></section>
         </main>
         <script src="js/theme.js"></script>
     </body>

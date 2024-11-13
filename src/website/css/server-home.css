@@ -8,7 +8,8 @@ body {
 }
 
 nav {
-    position: absolute;
+    position: relative;
+    z-index: 1;
     width: var(--nav-width);
     height: 100%;
     background-color: var(--secondary-container);
@@ -37,7 +38,8 @@ nav {
 }
 
 main {
-    position: absolute;
+    position: relative;
+    z-index: 2;
     right: 0;
     width: calc(100% - var(--nav-width));
     height: 100%;
@@ -53,9 +55,10 @@ nav div{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 
-nav a {
+.icon {
     width: 75px;
     text-align: center;
     color: var(--primary-font);
@@ -150,7 +153,6 @@ nav a {
     color: var(--red);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    margin-right: 0.5rem;
 }
 
 div input {
