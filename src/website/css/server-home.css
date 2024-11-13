@@ -8,6 +8,7 @@ body {
 }
 
 nav {
+    position: absolute;
     width: var(--nav-width);
     height: 100%;
     background-color: var(--secondary-container);
@@ -36,6 +37,8 @@ nav {
 }
 
 main {
+    position: absolute;
+    right: 0;
     width: calc(100% - var(--nav-width));
     height: 100%;
 }
@@ -64,7 +67,7 @@ nav a {
 }
 
 .theme-switch-div-div {
-    height: calc(var(--nav-width) * 2);
+    height: calc(var(--nav-width) * 1.6);
 }
 
 .theme-switch-div {
