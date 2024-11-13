@@ -14,10 +14,11 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .expanded_nav {
-    width: calc(var(--nav-width) * 4);
+    width: calc(var(--nav-width) * 3.5);
 }
 
 .icon_name {
@@ -25,7 +26,13 @@ nav {
 }
 
 .expanded_icon_name {
+    padding-right: 15px;
     display: block;
+    width: calc(var(--nav-width) * 2.5 - 15px);
+    justify-self: end;
+    text-align: right;
+    color: var(--secondary-font);
+    font-size: 1.2rem;
 }
 
 main {
@@ -46,6 +53,8 @@ nav div{
 }
 
 nav a {
+    width: 75px;
+    text-align: center;
     color: var(--primary-font);
     font-size: 2.8rem!important;
 }
@@ -54,8 +63,13 @@ nav a {
     rotate: 180deg;
 }
 
+.theme-switch-div-div {
+    height: calc(var(--nav-width) * 2);
+}
+
 .theme-switch-div {
-    height: calc(var(--nav-width) * 1.5);
+    height: 100%;
+    width: 75px;
 }
 
 .theme-switch {

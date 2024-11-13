@@ -49,19 +49,24 @@
                 </div>
             </span>
             <span>
-                <div class="theme-switch-div">
-                    <label class="theme-switch" for="checkbox">
-                        <input type="checkbox" id="checkbox">
-                        <span class="slider"></span>
-                        <img src="img/lamp-off.jpg" class="off">
-                        <img src="img/lamp-on.jpg" class="on">
-                    </label>
+                <div class="theme-switch-div-div">
+                    <div class="theme-switch-div">
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox">
+                            <span class="slider"></span>
+                            <img src="img/lamp-off.jpg" class="off">
+                            <img src="img/lamp-on.jpg" class="on">
+                        </label>
+                    </div>
+                    <p class="icon_name">Theme</p>
                 </div>
                 <div>
                     <a class="material-symbols-rounded" onclick="expand_nav()" id="expand_arrow">arrow_forward_ios</a>
+                    <p class="icon_name">Contract</p>
                 </div>
                 <div>
                     <a class="material-symbols-rounded logout" href="index.php">logout</a>
+                    <p class="icon_name">Back</p>
                 </div>
             </span>
         </nav>
